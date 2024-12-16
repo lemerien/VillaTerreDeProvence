@@ -1,0 +1,41 @@
+
+
+Fichier de commande :
+
+
+
+npm install : install les paquets et dependances
+npm run dev : lance le serveur local ( CTRL + C : arrete le serveur) 
+
+
+----GIT ----
+
+1- INSTALLER GIT pour win ou linux
+
+2- (pour initialiser)
+
+git config --global user.name "VotreNom"
+git config --global user.email "VotreEmail@example.com"
+
+puis initialiser dans VS Code (menu source )
+
+git remote add origin https://github.com/USER/REPO.git
+git branch -M main
+3-( pour mettre a jour )
+
+git add . : ajoute l'ensemble des fichier du repertoire à GIT
+git commit -m "message" : liste les versions
+git push  -u origin main : pousse vers le site Github
+
+
+-------- FORMULAIRE MAIL send GRID et Backend RENDER (web service)-----
+
+installer module 
+npm install @sendgrid/mail
+
+ouvrir back end et mettre le fichier server.JS (qui a son propre repo privée sur GIT)
+commande pour lancer le server
+node server.js
+
+
+

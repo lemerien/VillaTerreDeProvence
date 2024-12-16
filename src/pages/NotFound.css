@@ -1,0 +1,33 @@
+/* src/pages/NotFound.css */
+.not-found-container {
+  min-height: calc(100vh - 150px); /* Ajustez selon la hauteur de votre footer */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; /* Centre le texte */
+}
+
+.not-found-title {
+  font-size: 2rem; /* Ajustez la taille de la police selon vos besoins */
+  margin-bottom: 1rem; /* Espace en bas du titre */
+}
+
+.not-found-message {
+  font-size: 1rem; /* Ajustez la taille de la police selon vos besoins */
+  margin-bottom: 1rem; /* Espace en bas du message */
+}
+
+.not-found-image {
+  max-width: 100%; /* Assurez-vous que l'image ne déborde pas */
+  height: auto; /* Conserve le ratio de l'image */
+}
+
+.not-found-link {
+  color: #007bff; /* Couleur du lien */
+  text-decoration: underline; /* Souligner le lien */
+}
+
+.not-found-link:hover {
+  color: #0056b3; /* Couleur au survol */
+}

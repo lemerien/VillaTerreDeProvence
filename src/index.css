@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-custom-blue {
+  color: #380086;
+}
+
+.responsive-iframe {
+  width: 100%;
+  height: 600px;
+  border: 0;
+}
+
+@media (max-width: 768px) {
+  .responsive-iframe {
+    height: 400px;
+  }
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  overflow: hidden;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+/* Style général pour les composants */
+.payment-method {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.payment-method:hover {
+  transform: scale(1.05);
+}
+
+.payment-method img {
+  max-width: 100px;
+  margin-bottom: 15px;
+}
+
+.payment-method h3 {
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.payment-method p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Additional styles for better iframe responsiveness */
+iframe {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* src/styles.css ou un fichier CSS approprié */
+.footer-gradient {
+  background: linear-gradient(to right, #d69e2e, #f6e58d); /* Dégradé ocre personnalisé */
+}
+
+.bg-ochre {
+  background-color: #d6a65b; /* Remplacez par la couleur ocre souhaitée */
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.gallery-container {
+  padding: 20px;
+  background-color: #f9f9f9; /* Couleur de fond de la galerie */
+  border-radius: 10px; /* Coins arrondis */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
+}
+
+.gallery-image {
+  transition: transform 0.3s ease;
+}
+
+.gallery-image:hover {
+  transform: scale(1.05); /* Effet de zoom au survol */
+}
+
+button {
+  font-weight: bold; /* Texte en gras pour les boutons */
+  border: none; /* Supprimer la bordure par défaut */
+  border-radius: 5px; /* Coins arrondis pour les boutons */
+}
+
+.modal-title {
+  font-size: 1.5rem; /* Taille de police pour le titre */
+  font-weight: bold; /* Gras pour le titre */
+}
+
+.modal-description {
+  font-size: 1rem; /* Taille de police pour la description */
+  margin-top: 0.5rem; /* Espacement au-dessus de la description */
+}
+
+.modal-close {
+  position: absolute; /* Positionnement du bouton de fermeture */
+  top: 1rem; /* Espacement du haut */
+  right: 1rem; /* Espacement de la droite */
+  background: none; /* Pas de fond */
+  border: none; /* Pas de bordure */
+  color: white; /* Couleur du texte */
+  font-size: 2rem; /* Taille du texte */
+  cursor: pointer; /* Curseur pointer pour indiquer cliquable */
+}
+
+.modal-image {
+  max-width: 100%; /* Assurez-vous que l'image ne déborde pas */
+  height: auto; /* Conserve le ratio de l'image */
+}
+
+* {
+  font-family: 'Georgia', serif; /* Applique la police Georgia */
+}
