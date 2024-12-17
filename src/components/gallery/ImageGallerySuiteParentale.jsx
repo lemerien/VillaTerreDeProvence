@@ -4,20 +4,20 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
     {
-    original: 'public/Bedrooms/2 - Parental Suite.jpg',
-    thumbnail: 'public/Bedrooms/2 - Parental Suite.jpg',
+    original: 'Bedrooms/2 - Parental Suite.jpg',
+    thumbnail: 'Bedrooms/2 - Parental Suite.jpg',
     description: 'Dispose de sa propre salle de bain, un grand dressing et une vue directe sur le jardin',
     originalTitle: 'Suite Parentale'
   },
   {
-    original: '.public/Bedrooms/4 - Bathroom Parental Suite.jpg',
-    thumbnail: '.public/Bedrooms/4 - Bathroom Parental Suite.jpg',
+    original: 'Bedrooms/4 - Bathroom Parental Suite.jpg',
+    thumbnail: 'Bedrooms/4 - Bathroom Parental Suite.jpg',
     description: 'Dans un style exotique avec des bois chauds, deux vasques et une grande douche',
     originalTitle: 'Salle de bain Suite Parentale'
   },
   {
-    original: './src/components/shared/Photos/Bedrooms/3 - Parental Suite.jpg',
-    thumbnail: './src/components/shared/Photos/Bedrooms/3 - Parental Suite.jpg',
+    original: 'Bedrooms/3 - Parental Suite.jpg',
+    thumbnail: 'Bedrooms/3 - Parental Suite.jpg',
     description: 'Dispose de sa propre salle de bain, un grand dressing et une vue directe sur le jardin',
     originalTitle: 'Suite Parentale'
   }

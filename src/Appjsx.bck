@@ -13,7 +13,7 @@ import { ScrollToTop } from './components/shared/ScrollToTop';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/VillaTerreDeProvence">
   <ScrollToTop />
       <Layout>
         <Routes>

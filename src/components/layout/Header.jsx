@@ -55,9 +55,9 @@ export function Header() {
                       <div className={`flex flex-col items-center transition-colors ${textColor}`}>
   <span className="text-4xl font-light">Villa Terre de Provence</span>
   <div className="flex items-center mt-2">
-    <img src="/src/components/shared/Icones/stars.png" alt="stars" className="w-14 h-6 mr-2" />
+    <img src="src/components/shared/Icones/stars.png" alt="stars" className="w-14 h-6 mr-2" />
     <span className="text-xl">Saint-Raphaël</span>
-    <img src="/src/components/shared/Icones/stars.png" alt="stars" className="w-14 h-6 ml-2" />
+    <img src="src/components/shared/Icones/stars.png" alt="stars" className="w-14 h-6 ml-2" />
   </div>
 </div>
           </Link>
