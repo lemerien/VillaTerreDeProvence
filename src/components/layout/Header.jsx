@@ -47,17 +47,31 @@ export function Header() {
       className={`fixed w-full z-50 transition-all duration-300 ${headerBackground}`}
     >
       <nav 
-        className="mx-auto flex max-w-7xl flex-col items-center justify-between p-6 lg:px-8" 
+        className="mx-auto flex max-w-7xl flex-col items-center justify-between p-1 lg:px-8" 
         aria-label="Global"
       >
         <div className="flex lg:flex-1 flex-col items-center">
           <Link to="/" className="-m-1.5 p-1.5 text-center">
                       <div className={`flex flex-col items-center transition-colors ${textColor}`}>
-  <span className="text-4xl font-light">Villa Terre de Provence</span>
-  <div className="flex items-center mt-2">
-    <img src="src/components/shared/Icones/stars.png" alt="stars" className="w-14 h-6 mr-2" />
-    <span className="text-xl">Saint-Raphaël</span>
-    <img src="src/components/shared/Icones/stars.png" alt="stars" className="w-14 h-6 ml-2" />
+                      <span className="whitespace-nowrap text-[24px] sm:text-[24px] md:text-[36px] lg:text-[40px] font-light">
+          Villa Terre de Provence
+        </span>
+        <div className="flex items-center mt-2">
+  <img 
+    src="src/components/shared/Icones/stars.png" 
+    alt="stars" 
+    className="w-10 sm:w-12 md:w-14 lg:w-16 h-4 sm:h-5 md:h-6 lg:h-8 mr-2" 
+  />
+    
+    <span className="whitespace-nowrap text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-light">
+    Saint-Raphaël &nbsp;
+        </span>
+
+        <img 
+    src="src/components/shared/Icones/stars.png" 
+    alt="stars" 
+    className="w-10 sm:w-12 md:w-14 lg:w-16 h-4 sm:h-5 md:h-6 lg:h-8 mr-2" 
+  />
   </div>
 </div>
           </Link>
@@ -70,14 +84,14 @@ export function Header() {
           />
         </div>
         
-        <div className="flex lg:hidden">
+        <div className="absolute top-3 left-1 p-4 lg:hidden">
           <button
             type="button"
             className={`-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 transition-colors ${textColor}`}
             onClick={() => setMobileMenuOpen(true)}
           >
             <span className="sr-only">Open main menu</span>
-            <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+            <Bars3Icon className="h-10 w-10" aria-hidden="true" />
           </button>
         </div>
       </nav>

@@ -36,7 +36,8 @@ Contactez-nous
 <hr className="mb-4" />
 <div className="flex justify-center">
   <Link to="/reservationpolicy" className="text-blue-500 hover:underline">
-    VOIR LES CONDITIONS
+  <br class="my-4"></br>
+   VOIR LES CONDITIONS
   </Link>
 </div>
 

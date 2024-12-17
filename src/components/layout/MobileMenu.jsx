@@ -11,7 +11,8 @@ export function MobileMenu({ isOpen, onClose, navigation }) {
       onClose={onClose}
     >
       <div className="fixed inset-0 z-50 bg-black/30 backdrop-blur-sm" />
-      <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+      <Dialog.Panel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 transition-all duration-300 ease-in-out">
+
         <div className="flex items-center justify-between">
           <Link 
             to="/" 
@@ -29,9 +30,9 @@ export function MobileMenu({ isOpen, onClose, navigation }) {
             <XMarkIcon className="h-6 w-6" aria-hidden="true" />
           </button>
         </div>
-        <div className="mt-6 flow-root">
+        <div className="mt-8 flex flex-col items-center space-y-6">
           <div className="-my-6 divide-y divide-gray-500/10">
-            <div className="space-y-2 py-6">
+            <div className="space-y-8 py-10">
               {navigation.map((item) => (
                 <Link
                   key={item.name}
