@@ -5,7 +5,7 @@ const ReservationPolicy = () => {
  
   return (
   
-       <div className="container mx-auto px-40 py-4" style={{ marginTop: '180px' }}> {/* Ajustez la valeur selon la hauteur de votre menu */}
+       <div className="container mx-auto px-auto py-4" style={{ marginTop: '140px' }}> {/* Ajustez la valeur selon la hauteur de votre menu */}
 
       <h1 className="text-3xl font-semibold mb-6">Politique de réservation</h1>
 

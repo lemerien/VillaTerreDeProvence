@@ -4,33 +4,33 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
   {
-    original: './src/components/shared/Photos/Villa/ExterieurVilla/1 - Landscape exotic Garden 1.jpg',
-    thumbnail: './src/components/shared/Photos/Villa/ExterieurVilla/1 - Landscape exotic Garden 1.jpg',
+    original: 'Villa/ExterieurVilla/1 - Landscape exotic Garden 1.jpg',
+    thumbnail: 'Villa/ExterieurVilla/1 - Landscape exotic Garden 1.jpg',
     description: 'S\'allonger dans l\'une des chaises longues pour profiter du jardin depuis la pergola en est un bon moyen',
     originalTitle: 'Jardin Paysagé exotic'
   },
   {
-    original: './src/components/shared/Photos/Villa/ExterieurVilla/2 - Landscape exotic Garden 2.jpg',
-    thumbnail: './src/components/shared/Photos/Villa/ExterieurVilla/2 - Landscape exotic Garden 2.jpg',
+    original: 'Villa/ExterieurVilla/2 - Landscape exotic Garden 2.jpg',
+    thumbnail: 'Villa/ExterieurVilla/2 - Landscape exotic Garden 2.jpg',
     description: 'Kikuyu, Cycas Revoluta, Yucca Elephantipes, Olea europaea, Washingtonias, Pinus pinaster elles sont toutes là !',
     originalTitle: 'Jardin Paysagé exotic'
   },
   {
-    original: './src/components/shared/Photos/Villa/ExterieurVilla/6 - A typical day in French Riviera.jpg',
-    thumbnail: './src/components/shared/Photos/Villa/ExterieurVilla/6 - A typical day in French Riviera.jpg',
+    original: 'Villa/ExterieurVilla/6 - A typical day in French Riviera.jpg',
+    thumbnail: 'Villa/ExterieurVilla/6 - A typical day in French Riviera.jpg',
     description: 'Pour une baignade dans une eau cristalline au milieu des palmiers et de la Garrigue',
     originalTitle: 'La piscine au centre de la Garrigue'
   },
   {
-    original: './src/components/shared/Photos/Villa/ExterieurVilla/7 - The Patio.jpg',
-    thumbnail: './src/components/shared/Photos/Villa/ExterieurVilla/7 - The Patio.jpg',
+    original: 'Villa/ExterieurVilla/7 - The Patio.jpg',
+    thumbnail: 'Villa/ExterieurVilla/7 - The Patio.jpg',
     description: 'Sous les arches ocres provençal, l\'endroit idéal pour déjeuner, prendre l\'apéritif ou simplement profiter d\'un léger souffle d\'air ',
     originalTitle: 'Le Patio'
   },
 
   {
-    original: './src/components/shared/Photos/Villa/ExterieurVilla/8 - Villa view from backyard.jpg',
-    thumbnail: './src/components/shared/Photos/Villa/ExterieurVilla/8 - Villa view from backyard.jpg',
+    original: 'Villa/ExterieurVilla/8 - Villa view from backyard.jpg',
+    thumbnail: 'Villa/ExterieurVilla/8 - Villa view from backyard.jpg',
     description: 'Le Jardin Terrasse offre une vue sur les collines avec un espace dégagé au milieu des bambous',
     originalTitle: 'La Villa vue du Jardin Terrasse'
   }

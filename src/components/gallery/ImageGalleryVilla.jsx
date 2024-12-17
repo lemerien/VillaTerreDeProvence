@@ -4,35 +4,35 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
   {
-    original: './src/components/shared/Photos/Villa/InterieurVilla/1 - Living Room 1.jpg',
-    thumbnail: './src/components/shared/Photos/Villa/InterieurVilla/1 - Living Room 1.jpg',
+    original: 'Villa/InterieurVilla/1 - Living Room 1.jpg',
+    thumbnail: 'Villa/InterieurVilla/1 - Living Room 1.jpg',
     description: 'Le salon offre une vue sur le jardin depuis les deux grands canapés en cuir et la table à dîner',
     originalTitle: 'Le salon'
   },
   {
-    original: './src/components/shared/Photos/Villa/InterieurVilla/2 - Living Room 2.jpg',
-    thumbnail: './src/components/shared/Photos/Villa/InterieurVilla/2 - Living Room 2.jpg',
+    original: 'Villa/InterieurVilla/2 - Living Room 2.jpg',
+    thumbnail: 'Villa/InterieurVilla/2 - Living Room 2.jpg',
     description: 'ainsi qu\'une vue sur la montagne de l\'Estérel depuis le coin bibliothèque',
     originalTitle: 'Le salon'
   },
 
   {
-    original: './src/components/shared/Photos/Villa/InterieurVilla/3 - Living Room 3.jpg',
-    thumbnail: './src/components/shared/Photos/Villa/InterieurVilla/3 - Living Room 3.jpg',
+    original: 'Villa/InterieurVilla/3 - Living Room 3.jpg',
+    thumbnail: 'Villa/InterieurVilla/3 - Living Room 3.jpg',
     description: 'Vue sur la montagne de l\'Estérel depuis le coin bibliothèque',
     originalTitle: 'Le salon'
   },
 
   {
-    original: './src/components/shared/Photos/Villa/InterieurVilla/4 - Living Room 4.jpg',
-    thumbnail: './src/components/shared/Photos/Villa/InterieurVilla/4 - Living Room 4.jpg',
+    original: 'Villa/InterieurVilla/4 - Living Room 4.jpg',
+    thumbnail: 'Villa/InterieurVilla/4 - Living Room 4.jpg',
     description: 'Vue sur la montagne de l\'Estérel depuis le coin bibliothèque',
     originalTitle: 'Le salon'
   },
 
   {
-    original: './src/components/shared/Photos/Villa/InterieurVilla/5 - Kitchen.jpg',
-    thumbnail: './src/components/shared/Photos/Villa/InterieurVilla/5 - Kitchen.jpg',
+    original: 'Villa/InterieurVilla/5 - Kitchen.jpg',
+    thumbnail: 'Villa/InterieurVilla/5 - Kitchen.jpg',
     description: 'Entièrement équipée, machine à café Nespresso compris',
     originalTitle: 'La cuisine'
   }

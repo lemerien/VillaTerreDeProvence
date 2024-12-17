@@ -7,8 +7,8 @@ import { SignFootMenu } from '../components/layout/SignFootMenu';
 
 export function Availability() {
 return (
-<div className="pt-20">
-<div className="container mx-auto px-4 py-14">
+<div className="container mx-auto px-auto py-4" style={{ marginTop: '120px' }}> {/* Ajustez la valeur selon la hauteur de votre menu */}
+
   <h1 className="text-4xl font-light mb-8 mt-10">Tarifs & Disponibilité</h1>
         
 <p className="mb-4 text-gray-700 text-center mx-auto max-w-[80%] bg-ochre p-4 rounded-lg">
@@ -49,7 +49,7 @@ Contactez-nous
 <PaymentMethods />
 </section> 
 
- </div>
+
  <SignFootMenu />
   </div>
   );

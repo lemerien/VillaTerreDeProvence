@@ -48,7 +48,7 @@ export function DescriptionSection() {
               {/* Image insérée ici */}
               <div className="mb-6 flex justify-center">
                 <img
-                  src=".\src\components\shared\Photos\Galleries\Photo Baie d'Agay bottom page.jpg"
+                  src="Galleries\Photo Baie d'Agay bottom page.jpg"
                   alt="Description"
                   className="w-full max-w-md h-auto object-cover rounded-lg shadow-md"
                 />

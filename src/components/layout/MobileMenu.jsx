@@ -19,7 +19,10 @@ export function MobileMenu({ isOpen, onClose, navigation }) {
             className="-m-1.5 p-1.5"
             onClick={onClose}
           >
-            <span className="text-2xl font-light">Villa Terre de Provence</span>
+            <span className={`text-2xl font-light text-custom-blue`}>
+  Villa Terre de Provence
+</span>
+
           </Link>
           <button
             type="button"

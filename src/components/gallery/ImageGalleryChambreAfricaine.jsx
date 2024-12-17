@@ -4,20 +4,20 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
   {
-    original: './src/components/shared/Photos/Bedrooms/10 - The African Room.jpg',
-    thumbnail: './src/components/shared/Photos/Bedrooms/10 - The African Room.jpg',
+    original: 'Bedrooms/10 - The African Room.jpg',
+    thumbnail: 'Bedrooms/10 - The African Room.jpg',
     description: 'Vue degagée sur le massif de l\'Estérel',
     originalTitle: 'La chambre Africaine'
   },
   {
-    original: './src/components/shared/Photos/Bedrooms/11 - The African Room.jpg',
-    thumbnail: './src/components/shared/Photos/Bedrooms/11 - The African Room.jpg',
+    original: 'Bedrooms/11 - The African Room.jpg',
+    thumbnail: 'Bedrooms/11 - The African Room.jpg',
     description: 'Vue degagée sur le massif de l\'Estérel',
     originalTitle: 'La chambre Africaine'
   },
   {
-    original: './src/components/shared/Photos/Bedrooms/12 - The African Room.jpg',
-    thumbnail: './src/components/shared/Photos/Bedrooms/12 - The African Room.jpg',
+    original: 'Bedrooms/12 - The African Room.jpg',
+    thumbnail: 'Bedrooms/12 - The African Room.jpg',
     description: 'Vue degagée sur le massif de l\'Estérel',
     originalTitle: 'La chambre Africaine'
   }

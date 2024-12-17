@@ -4,7 +4,7 @@ import { SignFootMenu } from '../components/layout/SignFootMenu';
 const Mentions = () => {
  
   return (
-<div className="container mx-auto px-6 py-2 flex flex-col items-center" style={{ marginTop: '180px' }}>
+<div className="container mx-auto px-6 py-2 flex flex-col items-center" style={{ marginTop: '150px' }}>
   {/* Titre principal */}
   <h1 className="text-3xl font-semibold mb-8">Mentions Légales</h1>
 

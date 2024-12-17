@@ -8,21 +8,33 @@ export function SignFootMenu() {
         {/* Image au-dessus */}
         <div className="text-center">
           <img 
-            src=".\src\components\shared\Photos\Logo Villa Terre de Provence.JPG" 
+            src="Logo Villa Terre de Provence.JPG" 
             alt="Logo Villa Terre de Provence" 
             className="mx-auto w-32 mb-2"
           />
         </div>
 
         {/* Liens hypertexte rapprochés */}
-        <nav className="flex justify-center space-x-6">
-          <Link to="/" className="text-sm hover:text-gray-900 underline">Accueil</Link>
-          <Link to="/villa" className="text-sm hover:text-gray-900 underline">La Villa</Link>
-          <Link to="/bedrooms" className="text-sm hover:text-gray-900 underline">Les Chambres</Link>
-          <Link to="/gallery" className="text-sm hover:text-gray-900 underline">Gallerie</Link>
-          <Link to="/availability" className="text-sm hover:text-gray-900 underline">Tarifs</Link>
-          <Link to="/contact" className="text-sm hover:text-gray-900 underline">Contact</Link>
-        </nav>
+        <nav className="flex justify-center space-x-4 sm:space-x-6 md:space-x-8 lg:space-x-10">
+  <Link to="/" className="text-xs sm:text-sm md:text-base lg:text-lg hover:text-gray-900 underline whitespace-nowrap">
+    Accueil
+  </Link>
+  <Link to="/villa" className="text-xs sm:text-sm md:text-base lg:text-lg hover:text-gray-900 underline whitespace-nowrap">
+    La Villa
+  </Link>
+  <Link to="/bedrooms" className="text-xs sm:text-sm md:text-base lg:text-lg hover:text-gray-900 underline whitespace-nowrap">
+    Les Chambres
+  </Link>
+  <Link to="/gallery" className="text-xs sm:text-sm md:text-base lg:text-lg hover:text-gray-900 underline whitespace-nowrap">
+    Gallerie
+  </Link>
+  <Link to="/availability" className="text-xs sm:text-sm md:text-base lg:text-lg hover:text-gray-900 underline whitespace-nowrap">
+    Tarifs
+  </Link>
+  <Link to="/contact" className="text-xs sm:text-sm md:text-base lg:text-lg hover:text-gray-900 underline whitespace-nowrap">
+    Contact
+  </Link>
+</nav>
       </div>
     </div>
   );

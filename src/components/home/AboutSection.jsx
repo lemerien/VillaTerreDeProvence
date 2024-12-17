@@ -20,7 +20,7 @@ export function AboutSection() {
             )}
           >
             <img
-              src="./src/components/shared/Photos/Welcome/1 - The Villa South.jpg"
+              src="Welcome/1 - The Villa South.jpg"
               alt="Villa Terre de Provence"
               className="w-full h-[600px] object-cover"
             />

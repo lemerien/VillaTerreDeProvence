@@ -9,8 +9,8 @@ import { Localisation } from '../components/contact/Localisation';
 export function Contact() {
   return (
     
-<div className="pt-20">
-<div className="container mx-auto px-4 py-14">
+<div className="container mx-auto px-auto py-4" style={{ marginTop: '120px' }}> {/* Ajustez la valeur selon la hauteur de votre menu */}
+
 <h1 className="text-4xl font-light mb-8 mt-10">Contact</h1>
 
 <section className="mb-12">
@@ -38,7 +38,6 @@ export function Contact() {
 <WelcomeMessage />
 </section>
 
-</div>
 <SignFootMenu />
 </div> );
 }

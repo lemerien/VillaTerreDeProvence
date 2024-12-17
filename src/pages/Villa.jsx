@@ -5,18 +5,18 @@ import { SignFootMenu } from '../components/layout/SignFootMenu';
 
 export function Villa() {
   return (
-    <div className="pt-20">
-      <div className="container mx-auto px-40 py-14">
+<div className="container mx-auto px-auto py-4" style={{ marginTop: '120px' }}> {/* Ajustez la valeur selon la hauteur de votre menu */}
+
         <h1 className="text-4xl font-light mb-8 mt-10">La Villa</h1>
         <p className="text-gray-600 text-center">
            
              {/* Première galerie Villa */}
               <ImageGalleryVilla />    
         </p>
-      </div>
+
 
       {/* Section Equipements Villa */}
-      <div className="max-w-7xl mx-auto px-40 py-4">
+      <div className="max-w-7xl mx-auto px-auto py-4">
         <h2 className="text-xl font-bold text-center mb-6">Equipements Villa</h2>
         
         <div className="border-b-2 border-gray-300 mb-8" />
@@ -56,10 +56,11 @@ export function Villa() {
             <span className="font-medium mr-2">Lave linge</span>
           </li>
         </ul>
+      
       </div>
 
    
-      <div className="container mx-auto px-40 py-4">
+      <div className="container mx-auto px-auto py-4">
                <p className="text-gray-600 text-center">
 
        {/* Deuxieme galerie Jardin */}
@@ -70,7 +71,7 @@ export function Villa() {
 
       
 {/* Section Equipements Jardin */}
-      <div className="max-w-7xl mx-auto px-40 py-8">
+      <div className="max-w-7xl mx-auto px-auto py-8">
         <h2 className="text-xl font-bold text-center mb-6">Equipements Jardin</h2>
         
         <div className="border-b-2 border-gray-300 mb-8" />
@@ -96,15 +97,14 @@ export function Villa() {
           </li>
           <li className="flex items-center justify-center">
             <span className="font-medium mr-2">Mobilier de jardin :</span> 
-</li>
+          </li>
           <li className="flex items-center justify-center">
             <span className="font-medium mr-2">Table en Teck & 8 fauteuils, 7 chaises longues, salon d'hiver, table en rodin avec ses fauteuils</span>
           </li>
         </ul>
-      </div>
-
+</div>
        <SignFootMenu />
-      
-    </div>
+
+      </div>
   );
 }

@@ -6,25 +6,25 @@ import 'swiper/css/effect-fade';
 const slides = [
   {
     id: 1,
-    image: 'src/components/shared/Photos/Welcome/1 - The Villa South.jpg',
+    image: 'Welcome/1 - The Villa South.jpg',
     title: 'Villa Terre de Provence',
     subtitle: 'Vacances nature à Saint-Raphaël'
   },
   {
     id: 2,
-    image: 'src/components/shared/Photos/Welcome/2 - Pool wooden beach.jpg',
+    image: 'Welcome/2 - Pool wooden beach.jpg',
     title: 'Experience Provence',
     subtitle: 'Votre Paradis'
   },
   {
     id: 3,
-    image: 'src/components/shared/Photos/Welcome/4 - Esterel view and Palms.jpg',
+    image: 'Welcome/4 - Esterel view and Palms.jpg',
     title: 'Votre Spot',
     subtitle: 'en Provence'
   } ,
   {
   id: 4,
-image: 'src/components/shared/Photos/Welcome/3 - Zen Garden.jpg',
+image: 'Welcome/3 - Zen Garden.jpg',
 title: 'Relaxion Détente',
 subtitle: '& Bien être'
 }  

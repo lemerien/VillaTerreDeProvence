@@ -4,20 +4,20 @@ import "react-image-gallery/styles/css/image-gallery.css";
 
 const images = [
   {
-    original: './src/components/shared/Photos/Bedrooms/13 - The Indian Room.jpg',
-    thumbnail: './src/components/shared/Photos/Bedrooms/13 - The Indian Room.jpg',
+    original: 'Bedrooms/13 - The Indian Room.jpg',
+    thumbnail: 'Bedrooms/13 - The Indian Room.jpg',
     description: 'Vue sur le massif de l\'Estérel',
     originalTitle: 'Chambre Orientale'
   },
   {
-    original: './src/components/shared/Photos/Bedrooms/14 - The Indian Room.jpg',
-    thumbnail: './src/components/shared/Photos/Bedrooms/14 - The Indian Room.jpg',
+    original: 'Bedrooms/14 - The Indian Room.jpg',
+    thumbnail: 'Bedrooms/14 - The Indian Room.jpg',
     description: 'Vue sur le massif de l\'Estérel',
     originalTitle: 'Chambre Orientale'
   },
   {
-    original: './src/components/shared/Photos/Bedrooms/15 - The Indian Room.jpg',
-    thumbnail: './src/components/shared/Photos/Bedrooms/15 - The Indian Room.jpg',
+    original: 'Bedrooms/15 - The Indian Room.jpg',
+    thumbnail: 'Bedrooms/15 - The Indian Room.jpg',
     description: 'Vue sur le massif de l\'Estérel',
     originalTitle: 'Chambre Orientale'
   }

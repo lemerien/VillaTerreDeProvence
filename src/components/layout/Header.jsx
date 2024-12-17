@@ -58,7 +58,7 @@ export function Header() {
         </span>
         <div className="flex items-center mt-2">
   <img 
-    src="src/components/shared/Icones/stars.png" 
+    src="Icones/stars.png" 
     alt="stars" 
     className="w-10 sm:w-12 md:w-14 lg:w-16 h-4 sm:h-5 md:h-6 lg:h-8 mr-2" 
   />
@@ -68,7 +68,7 @@ export function Header() {
         </span>
 
         <img 
-    src="src/components/shared/Icones/stars.png" 
+    src="Icones/stars.png" 
     alt="stars" 
     className="w-10 sm:w-12 md:w-14 lg:w-16 h-4 sm:h-5 md:h-6 lg:h-8 mr-2" 
   />
