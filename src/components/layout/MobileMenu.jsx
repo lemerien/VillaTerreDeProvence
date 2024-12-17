@@ -40,7 +40,7 @@ export function MobileMenu({ isOpen, onClose, navigation }) {
                 <Link
                   key={item.name}
                   to={item.href}
-                  className="group -mx-3 flex items-center gap-x-3 rounded-lg px-3 py-2 text-base font-light text-gray-900 hover:bg-gray-50"
+                  className="group -mx-3 flex items-center gap-x-3 rounded-lg px-3 py-2 text-2xl font-light text-custom-blue hover:bg-gray-50"
                   onClick={onClose}
                 >
                   {item.name}
