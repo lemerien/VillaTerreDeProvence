@@ -15,9 +15,9 @@ const NotFound = () => {
       </p>
       <div className="flex justify-center mb-4">
         <img
-          src="https://media.giphy.com/media/3o7aD2sa1g0g0g0g0g/giphy.gif"
-          alt="Not Found"
-          className="not-found-image"
+        src="Logo Villa Terre de Provence.jpg" 
+        className="mx-auto w-48 mb-2 rounded-shadow-image"
+        alt="Not Found"
         />
       </div>
       <p className="text-center">

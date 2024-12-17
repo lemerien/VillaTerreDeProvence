@@ -22,7 +22,7 @@ export function AboutSection() {
             <img
               src="Welcome/1 - The Villa South.jpg"
               alt="Villa Terre de Provence"
-              className="w-full h-[600px] object-cover"
+              className="w-full h-auto sm:h-[600px] object-contain sm:object-cover"
             />
           </div>
           <div
