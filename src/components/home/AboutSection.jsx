@@ -35,22 +35,22 @@ export function AboutSection() {
               Une Villa moderne, dans le style provençal avec Piscine chauffée et Climatisation
             </h2>
             
-            <p className="text-gray-600"> {/* Texte noir */}
+            <p className="text-lg text-gray-600"> {/* Texte noir */}
               La Villa dispose d'une belle terrasse exposition sud avec un porche donnant sur une grande piscine 
               aux eaux turquoise ainsi que sur un jardin paysagé entouré de bambous et de végétation exotique.
             </p>
             
-            <p className="text-gray-600"> {/* Texte noir */}
+            <p className="text-lg text-gray-600"> {/* Texte noir */}
               La résidence est calme et sécurisée. La vue est dégagée. Elle se situe en zone résidentielle 
               et boisée, à proximité des golfs.
             </p>
             
-            <p className="text-gray-600"> {/* Texte noir */}
+            <p className="text-lg text-gray-600"> {/* Texte noir */}
               Une sortie privée de la résidence donne directement accès au massif de l'Estérel, pour les 
               randonnées et le VTT.
             </p>
             
-            <p className="text-gray-600"> {/* Texte noir */}
+            <p className="text-lg text-gray-600"> {/* Texte noir */}
               Bienvenue sur notre nouveau site et dans ce décor de rêves au climat enchanteur.
             </p>
             

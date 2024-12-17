@@ -6,13 +6,24 @@ export default {
   ],
   theme: {
     extend: {
+      // Ajout de la police Georgia en tant que police de secours pour le texte de votre site
       fontFamily: {
-        sans: ['Helvetica Neue', 'Arial', 'sans-serif'],
+        sans: ['Georgia', 'sans-serif'],
+        serif: ['Georgia', 'serif'], // Ajout de la police Georgia comme police par défaut pour les textes de type serif
       },
+      // Définir les tailles de police personnalisées sous fontSize
+      fontSize: {
+        base: '18px', // Définir une taille de police de base personnalisée
+        lg: '22px',    // Par exemple une taille "large"
+        xl: '26px',    // Taille extra large
+      },
+
+      // Transition de propriétés personnalisées
       transitionProperty: {
         'width': 'width',
         'spacing': 'margin, padding',
       },
+      // Définition des animations personnalisées
       keyframes: {
         fadeIn: {
           '0%': { opacity: '0' },
@@ -23,12 +34,14 @@ export default {
           '100%': { transform: 'translateX(0)' },
         },
       },
+      // Application des animations personnalisées
       animation: {
         fadeIn: 'fadeIn 0.3s ease-in-out',
         slideIn: 'slideIn 0.3s ease-out',
       },
+      // Ajout de la couleur ocre à la palette de couleurs
       colors: {
-        ocre: '#DD985C', // Ajoutez la couleur ocre ici
+        ocre: '#DD985C', // Couleur ocre
       },
     },
   },

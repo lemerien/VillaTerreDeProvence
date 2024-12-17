@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply text-base; /* Appliquer la taille de police de base à tout le corps du texte */
+}
+
 .text-custom-blue {
   color: #380086;
 }

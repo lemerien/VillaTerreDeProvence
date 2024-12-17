@@ -55,10 +55,10 @@ export function TestimonialsSection() {
               )}
             >
               <div className="space-y-4">
-                <p className="text-gray-600 italic">"{testimonial.content}"</p>
+                <p className="text-lg text-gray-600 italic">"{testimonial.content}"</p>
                 <div className="flex justify-between items-center">
-                  <span className="text-gray-900 font-light">{testimonial.author}</span>
-                  <span className="text-gray-500 text-sm">{testimonial.source}</span>
+                  <span className="text-lg text-gray-900 font-light">{testimonial.author}</span>
+                  <span className="text-gray-600 text-sm">{testimonial.source}</span>
                 </div>
               </div>
               {/* Bulle d'expression */}

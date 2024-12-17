@@ -1,6 +1,6 @@
 import { useInView } from 'react-intersection-observer';
 import { clsx } from 'clsx';
-import { IconFeature } from '../shared/IconFeature';
+
 
 const features = [
   { id: 1, icon: 'Icones/Villaicon.jpg', label: '158 m²' },
@@ -51,7 +51,7 @@ export function Features() {
                   />
                 </div>
                 {/* Texte centré sous l'image */}
-                <p className="text-center text-sm mt-2">{feature.label}</p>
+                <p className="text-lg text-center mt-2">{feature.label}</p>
               </div>
             </div>
           ))}

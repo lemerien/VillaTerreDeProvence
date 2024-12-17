@@ -5,7 +5,7 @@ export const Localisation = () => {
    return (
     <>
     <section className="mb-12">
-    <div className="bg-ocre text-gray-700 p-4 rounded-lg text-left">
+    <div className="text-lg bg-ocre text-gray-700 p-4 rounded-lg text-left">
       <ul className="list-disc pl-6">
         <li className="mb-4">
           Située à Saint-Raphaël, Provence-Alpes-Côte d'Azur, La Villa Terre de Provence se trouve entre la Mer Méditerranéenne et le massif de l'Estérel, dans la partie résidentielle de Saint-Raphaël à proximité immédiate de la baie d'Agay.

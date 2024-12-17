@@ -23,7 +23,7 @@ export function DescriptionSection() {
                 <h2 className="text-xl md:text-2xl font-light mb-4 text-gray-800 shadow-md">
                   DES COULEURS À COUPER LE SOUFFLE...
                 </h2>
-                <p className="text-gray-600 mb-4">
+                <p className="text-lg text-gray-600 mb-4">
                   Un paysage unique qui passe progressivement de la mer à la montagne avec une palette de couleurs tranchées, qui a attiré les peintres impressionnistes les plus réputés.
                   Si les eaux limpides de la mer contrastent avec les ocres de la côte, le vert des pinèdes se marie avec le bleu profond du ciel de Provence.
                 </p>
@@ -37,7 +37,7 @@ export function DescriptionSection() {
                 <h2 className="text-xl md:text-2xl font-light mb-4 text-gray-800 shadow-md">
                   DES VACANCES INOUBLIABLES...
                 </h2>
-                <p className="text-gray-600">
+                <p className="text-lg text-gray-600">
                   Les plages de sable fin de Saint-Raphaël et Fréjus sont toutes proches, à moins que vous ne préfériez le cadre inoubliable de la baie d'Agay, accessible également à vélo, pour vous délasser dans les eaux chaudes et turquoise de nos rivages.
                 </p>
               </div>
@@ -62,7 +62,7 @@ export function DescriptionSection() {
                 <h2 className="text-xl md:text-2xl font-light mb-4 text-gray-800 shadow-md">
                   UN PETIT COIN DE PARADIS...
                 </h2>
-                <p className="text-gray-600">
+                <p className="text-lg text-gray-600">
                   Si vous appréciez les randonnées dans les somptueux décors de l'Estérel, ou encore le VTT vers ces sommets aux panoramas imprenables, les farnientes sur les plages à bronzer, l'expérience du vent dans les voiles, les plongées à la rencontre de la faune sous-marine, les douces siestes dans une chaise-longe près de la piscine, découvrir la gastronomie méditerranéenne, et bien tout cela est ici !
                 </p>
               </div>

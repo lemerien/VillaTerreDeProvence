@@ -2,9 +2,9 @@ import React from 'react';
 
 const PaymentMethod = ({ title, description, paypalForm }) => {
 return (
-<div className="payment-method bg-ochre p-4 rounded-lg">
+<div className="text-lg payment-method bg-ochre p-4 rounded-lg">
 <h3 className="text-xl font-semibold mb-2">{title}</h3>
-<p className="text-gray-700">{description}</p>
+<p className="text-lg text-gray-700">{description}</p>
 {paypalForm && (
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top" className="mt-4">
 <input type="hidden" name="cmd" value="_s-xclick" />

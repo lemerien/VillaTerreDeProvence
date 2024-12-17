@@ -4,7 +4,7 @@ import React from 'react';
 export const Transport = () => {
    return (
     <section className="mb-12">
-    <div className="bg-ocre text-gray-700 p-4 rounded-lg">
+    <div className="text-lg bg-ocre text-gray-700 p-4 rounded-lg">
 
         <li className="mb-4">
           Autoroute A8 sortie 38 "Le Capitou" à 15 minutes
