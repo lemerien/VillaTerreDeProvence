@@ -8,9 +8,9 @@ export function SignFootMenu() {
         {/* Image au-dessus */}
         <div className="text-center">
           <img 
-            src="Logo Villa Terre de Provence.JPG" 
+            src="Logo Villa Terre de Provence.jpg" 
             alt="Logo Villa Terre de Provence" 
-            className="mx-auto w-32 mb-2"
+            className="mx-auto w-48 mb-2 rounded-shadow-image"
           />
         </div>
 

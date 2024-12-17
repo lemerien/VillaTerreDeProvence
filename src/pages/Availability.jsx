@@ -25,7 +25,7 @@ Contactez-nous
 </div>
 
 <p className="mb-4 text-gray-700 text-center mx-auto max-w-[80%] bg-ochre p-4 rounded-lg">
-<br /> Les disponibilités et tarif à la nuitée (min 7 nuitées) sont indiqués dans le calendrier ci-dessous. <br />
+<br /> Les disponibilités et tarif à la nuitée (min 7 nuitées) sont indiqués en VERT dans le calendrier ci-dessous. <br />
 (pensez à désactiver les bloqueurs de pub si le calendrier ne s'affiche pas) <br /> <br />
 </p>
 

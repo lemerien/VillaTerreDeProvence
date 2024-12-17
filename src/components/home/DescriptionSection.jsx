@@ -50,7 +50,7 @@ export function DescriptionSection() {
                 <img
                   src="Galleries\Photo Baie d'Agay bottom page.jpg"
                   alt="Description"
-                  className="w-full max-w-md h-auto object-cover rounded-lg shadow-md"
+                  className="w-full max-w-md h-auto object-cover rounded-shadow-image"
                 />
               </div>
               <div

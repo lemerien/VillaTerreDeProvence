@@ -40,8 +40,20 @@ export function Features() {
                 { 'delay-200': index % 2, 'delay-400': index % 3 }
               )}
             >
-              <IconFeature icon={feature.icon} label={feature.label} />
-            </div>         
+              {/* Conteneur pour centrer l'image et le texte */}
+              <div className="flex flex-col items-center">
+                {/* Image avec effet de zoom */}
+                <div className="overflow-hidden">
+                  <img
+                    src={feature.icon}
+                    alt={feature.label}
+                    className="transition-transform duration-200 transform hover:scale-110 w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 lg:w-28 lg:h-28 xl:w-32 xl:h-32"
+                  />
+                </div>
+                {/* Texte centré sous l'image */}
+                <p className="text-center text-sm mt-2">{feature.label}</p>
+              </div>
+            </div>
           ))}
         </div>
        
