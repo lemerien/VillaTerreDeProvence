@@ -51,7 +51,7 @@ export function Features() {
                   />
                 </div>
                 {/* Texte centré sous l'image */}
-                <p className="text-lg text-center mt-2">{feature.label}</p>
+                <p className="text-lg text-center text-gray-600 mt-2">{feature.label}</p>
               </div>
             </div>
           ))}
