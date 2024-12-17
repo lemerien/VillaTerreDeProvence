@@ -3,18 +3,18 @@ import { clsx } from 'clsx';
 
 
 const features = [
-  { id: 1, icon: 'Icones/Villaicon.jpg', label: '158 m²' },
-  { id: 2, icon: 'Icones/Gardenicon.jpg', label: '1 400 m²' },
-  { id: 3, icon: 'Icones/Poolicon.jpg', label: 'Piscine' },
-  { id: 4, icon: 'Icones/Bedroom icon.jpg', label: '4 Chambres' },
-  { id: 5, icon: 'Icones/Bathroom icon.jpg', label: '4 Douches' },
-  { id: 6, icon: 'Icones/ACicon.jpg', label: 'A/C' },
-  { id: 7, icon: 'Icones/Parkingicon.jpg', label: 'Parking' },
-  { id: 8, icon: 'Icones/Wifiicon.jpg', label: 'Wifi & LAN' },
-  { id: 9, icon: 'Icones/Towelsicon.jpg', label: 'Serviettes' },
-  { id: 10, icon: 'Icones/iconsea.jpg', label: '9 min' },
-  { id: 11, icon: 'Icones/iconmontain.jpg', label: '3 min' },
-  { id: 12, icon: 'Icones/Salesicon.jpg', label: '- 20 % discount' }
+  { id: 1, icon: 'Icones/Villaicon.png', label: '158 m²' },
+  { id: 2, icon: 'Icones/Gardenicon.png', label: '1 400 m²' },
+  { id: 3, icon: 'Icones/Poolicon.png', label: 'Piscine' },
+  { id: 4, icon: 'Icones/Bedroom icon.png', label: '4 Chambres' },
+  { id: 5, icon: 'Icones/Bathroom icon.png', label: '4 Douches' },
+  { id: 6, icon: 'Icones/ACicon.png', label: 'A/C' },
+  { id: 7, icon: 'Icones/Parkingicon.png', label: 'Parking' },
+  { id: 8, icon: 'Icones/Wifiicon.png', label: 'Wifi & LAN' },
+  { id: 9, icon: 'Icones/Towelsicon.png', label: 'Serviettes' },
+  { id: 10, icon: 'Icones/iconsea.png', label: '9 min' },
+  { id: 11, icon: 'Icones/iconmontain.png', label: '3 min' },
+  { id: 12, icon: 'Icones/Salesicon.png', label: '- 20 % discount' }
 ];
 
 export function Features() {
