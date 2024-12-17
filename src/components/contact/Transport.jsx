@@ -5,7 +5,7 @@ export const Transport = () => {
    return (
     <section className="mb-12">
     <div className="text-lg bg-ocre text-gray-700 p-4 rounded-lg">
-
+    <ul className="list-disc pl-6">
         <li className="mb-4">
           Autoroute A8 sortie 38 "Le Capitou" à 15 minutes
         </li>
@@ -21,6 +21,7 @@ export const Transport = () => {
         <li className="mb-4">
           Parking privé pour plusieurs voitures au sein de la Villa
         </li>
+        </ul>
 </div>
   </section>
 

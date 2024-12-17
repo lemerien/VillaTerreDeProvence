@@ -44,4 +44,5 @@ npm install gh-pages
 npx gh-pages -d dist
 
 npm run build
+npm run deploy
 
