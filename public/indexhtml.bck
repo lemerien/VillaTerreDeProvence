@@ -1,0 +1,54 @@
+<!-- public/index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpg" href="Favicon.JPG" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Balises de vérification (ne doivent pas être visibles sur la page) -->
+    <meta name="google-site-verification" content="cnNW_eCYCw4bY81rc8_rmuFQwf-VgNRlHQjUZ_HEoxI"/> <!-- balise google -->
+    <meta name="msvalidate.01" content="E7BAF3F32BCFC936E372B78CD52D2FE0" /> <!-- balise bing -->
+    <meta name="yandex-verification" content="bb021ff8e8bc689e" /> <!-- balise yandex -->
+    
+    <!-- Sécurité du contenu -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://trustedscripts.com;">
+    
+    <!-- SEO -->
+    <meta name="description" content="Villa à louer avec piscine et jardin situé à Saint-Raphaël sur la Côte d'Azur près de la Provence">
+    <meta name="keywords" content="Villa piscine à louer sud france, Maison piscine à louer provence, Location Saisonniere villa piscine">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL pour éviter la duplication -->
+    <link rel="canonical" href="https://www.villaterredeprovence.com/">
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139967564-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-139967564-1');
+    </script>
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Website",
+        "name": "Villa Terre de Provence",
+        "url": "https://www.villaterredeprovence.com"
+      }
+    </script>
+
+    <title>Villa Terre de Provence</title> <!-- Titre de la page -->
+  </head>
+  
+  <body>
+    <!-- Div cible pour React (le contenu sera injecté par React ici) -->
+    <div id="root"></div>
+
+    <!-- Le script principal de React, qui est automatiquement géré par votre build React -->
+    <script type="module" src="%PUBLIC_URL%/src/main.jsx"></script>
+  </body>
+</html>
