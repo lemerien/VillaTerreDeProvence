@@ -28,7 +28,7 @@ export function Contact() {
 <section className="mb-12">
   <h2 className="text-xl font-bold mb-4">Formulaire de Contact</h2>
   <hr className="mb-4" />
-  <h3 className="text-sm font-base mb-4">(Patientiez 1 minute lors son envoi svp)</h3>
+  <h3 className="text-lg font-base mb-4">(Patientiez 1 minute lors son envoi svp)</h3>
   <ContactForm />
 </section>
 
