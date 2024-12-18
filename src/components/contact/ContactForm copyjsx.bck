@@ -1,7 +1,6 @@
 // Composant du formulaire de contact
 import React from 'react';
 import { useContactForm } from '../../hooks/useContactForm';
-import { FormField } from './FormField';
 import { FormStatus } from './FormStatus';
 
 export const ContactForm = () => {

@@ -1,66 +1,47 @@
-// Hook personnalisé pour gérer la logique du formulaire
 import { useState } from 'react';
-import { sendContactForm } from '../services/api';
+import axios from 'axios';
 
 export const useContactForm = () => {
-  const initialState = {
+  const [formData, setFormData] = useState({
     prenom: '',
     nom: '',
     email: '',
     telephone: '',
     dateArrivee: '',
     dateDepart: '',
-    nombrePersonnes: 2,
+    nombrePersonnes: '',
     modePaiement: '',
     presentation: '',
-  };
+  });
 
-  const [formData, setFormData] = useState(initialState);
   const [status, setStatus] = useState({
     submitting: false,
-    submitted: false,
-    error: null
+    success: '',
+    error: '',
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prevData => ({
-      ...prevData,
-      [name]: value,
-    }));
-  };
-
-  const resetForm = () => {
-    setFormData(initialState);
-    setStatus({
-      submitting: false,
-      submitted: false,
-      error: null
-    });
+    setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setStatus({ submitting: true, submitted: false, error: null });
+    setStatus({ submitting: true, success: '', error: '' });
 
     try {
-      await sendContactForm(formData);
-      setStatus({ submitting: false, submitted: true, error: null });
-      resetForm();
+      const response = await axios.post('https://backendvillaterredeprovence.onrender.com/send-email', formData, {
+        headers: { 'Content-Type': 'application/json' },
+      });
+      setStatus({ submitting: false, success: response.data.message, error: '' });
     } catch (error) {
       setStatus({
         submitting: false,
-        submitted: false,
-        error: error.message
+        success: '',
+        error: error.response?.data?.error || 'Une erreur est survenue.',
       });
     }
   };
 
-  return {
-    formData,
-    status,
-    handleChange,
-    handleSubmit,
-    resetForm
-  };
+  return { formData, status, handleChange, handleSubmit };
 };
