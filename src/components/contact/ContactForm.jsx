@@ -6,9 +6,23 @@ export const ContactForm = () => {
   const { formData, status, handleChange, handleSubmit } = useContactForm();
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6 max-w-4xl mx-auto px-4">
+    <form onSubmit={handleSubmit} className="space-y-6">
       {/* Affichage du statut de soumission */}
       <FormStatus status={status} />
+
+      {/* Affichage du message de succès */}
+      {status.success && (
+        <div className="text-green-500 text-lg font-semibold mt-4">
+          Le message a été envoyé avec succès !
+        </div>
+      )}
+
+      {/* Affichage du message d'erreur */}
+      {status.error && (
+        <div className="text-red-500 text-lg font-semibold mt-4">
+          Une erreur est survenue : {status.error}
+        </div>
+      )}
 
       {/* Prénom et Nom */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
