@@ -7,23 +7,7 @@ export const ContactForm = () => {
 
   return (
     <form onSubmit={handleSubmit} className="space-y-6">
-      {/* Affichage du statut de soumission */}
-      <FormStatus status={status} />
-
-      {/* Affichage du message de succès */}
-      {status.success && (
-        <div className="text-green-500 text-lg font-semibold mt-4">
-          Le message a été envoyé avec succès !
-        </div>
-      )}
-
-      {/* Affichage du message d'erreur */}
-      {status.error && (
-        <div className="text-red-500 text-lg font-semibold mt-4">
-          Une erreur est survenue : {status.error}
-        </div>
-      )}
-
+     
       {/* Prénom et Nom */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <div className="flex flex-col">
@@ -167,6 +151,24 @@ export const ContactForm = () => {
       >
         {status.submitting ? 'Envoi en cours...' : 'Envoyer'}
       </button>
+      
+ {/* Affichage du statut de soumission */}
+ <FormStatus status={status} />
+
+{/* Affichage du message de succès */}
+{status.success && (
+  <div className="text-green-500 text-lg font-semibold mt-4">
+    Le message a été envoyé avec succès !
+  </div>
+)}
+
+{/* Affichage du message d'erreur */}
+{status.error && (
+  <div className="text-red-500 text-lg font-semibold mt-4">
+    Une erreur est survenue : {status.error}
+  </div>
+)}
+
     </form>
   );
 };
