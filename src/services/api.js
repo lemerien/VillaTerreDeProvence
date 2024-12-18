@@ -5,7 +5,7 @@ const API_BASE_URL = 'https://backendvillaterredeprovence.onrender.com'; // Remp
 
 export const sendContactForm = async (formData) => {
   try {
-    const response = await axios.post(`${API_BASE_URL}/api/contact`, formData);
+    const response = await axios.post(`${API_BASE_URL}`, formData);
     return response.data;
   } catch (error) {
     throw new Error(error.response?.data?.message || 'Une erreur est survenue');
