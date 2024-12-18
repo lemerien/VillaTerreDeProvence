@@ -40,9 +40,11 @@ node server.js
 
 ------------ Deploiement github pages ---------
 npm install gh-pages
-
 npx gh-pages -d dist
 
 npm run build
 npm run deploy
 
+
+------- Deploiement VERCEL ---- 
+pour les Analystics deployer avec npx vercel deploy

@@ -10,7 +10,7 @@ export const FormField = ({
   required,
   options = []
 }) => {
-  const baseClassName = "text-lg w-full border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500";
+  const baseClassName = "text-lg w-full border-2 border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500";
 
   const renderField = () => {
     switch (type) {

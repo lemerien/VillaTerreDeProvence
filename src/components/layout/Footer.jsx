@@ -6,14 +6,14 @@ export function Footer() {
       {/* Section des liens principaux */}
       <div className="mx-auto max-w-7xl px-2 py-1 flex justify-center items-center space-x-4 text-sm">
         {/* Utilisation de Link pour la navigation interne */}
-        <Link to="/contact" className="text-gray-900 hover:text-black underline">
+        <Link to="/contact" className="text-base text-gray-900 hover:text-black underline">
           Formulaire de Contact
         </Link>
         
         {/* Lien externe vers l'e-mail */}
         <a 
           href="mailto:villaterredeprovence@gmail.com" 
-          className="text-gray-900 hover:text-black underline"
+          className="text-base text-gray-900 hover:text-black underline"
           aria-label="Envoyer un e-mail à Villa Terre de Provence"
         >
           E-mail
@@ -24,7 +24,7 @@ export function Footer() {
           href="https://www.facebook.com/villaterredeprovence" 
           target="_blank" 
           rel="noopener noreferrer" 
-          className="text-gray-900 hover:text-black underline"
+          className="text-base text-gray-900 hover:text-black underline"
           aria-label="Accéder à la page Facebook de Villa Terre de Provence"
         >
           Facebook

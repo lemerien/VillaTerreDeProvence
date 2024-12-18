@@ -60,7 +60,7 @@ export function Header() {
   <img 
     src="Icones/stars.png" 
     alt="stars" 
-    className="w-10 sm:w-12 md:w-14 lg:w-16 h-4 sm:h-5 md:h-6 lg:h-8 mr-2" 
+    className="w-10 sm:w-12 md:w-14 lg:w-16 h-4 sm:h-5 md:h-6 lg:h-7 mr-2" 
   />
     
     <span className="whitespace-nowrap text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] font-light">
@@ -70,7 +70,7 @@ export function Header() {
         <img 
     src="Icones/stars.png" 
     alt="stars" 
-    className="w-10 sm:w-12 md:w-14 lg:w-16 h-4 sm:h-5 md:h-6 lg:h-8 mr-2" 
+    className="w-10 sm:w-12 md:w-14 lg:w-16 h-4 sm:h-5 md:h-6 lg:h-7 mr-2" 
   />
   </div>
 </div>
