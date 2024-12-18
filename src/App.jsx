@@ -11,6 +11,7 @@ import Mentions from './pages/Mentions';
 import NotFound from './pages/NotFound'; // Page 404
 import { ScrollToTop } from './components/shared/ScrollToTop';
 import { SpeedInsights } from '@vercel/speed-insights/react';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="*" element={<NotFound />} /> {/* Route par défaut */}
         </Routes>
         <SpeedInsights />
+        <Analytics />
       </Layout>
     </Router>
   );
