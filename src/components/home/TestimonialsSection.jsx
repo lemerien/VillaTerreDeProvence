@@ -62,8 +62,7 @@ export function TestimonialsSection() {
                 </div>
               </div>
               {/* Bulle d'expression */}
- <div className="absolute bottom-0 left-1 w-0 h-0 border-l-20 border-l-transparent border-r-8 border-r-transparent border-t-8 border-t-ocre transform translate-y-1"></div>
-            </div>
+              <div className="absolute bottom-0 left-1 w-0 h-0 border-l-[40px] border-l-transparent border-r-[40px] border-r-transparent border-t-[40px] border-t-ocre transform translate-y-4"></div>              </div>
           ))}
         </div>
       </div>
