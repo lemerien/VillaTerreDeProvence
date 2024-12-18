@@ -1,21 +1,14 @@
-import React from 'react';
-
 export const FormStatus = ({ status }) => {
-  // Condition pour afficher message d'erreur ou de succès
-  if (status.error) {
-    return (
-      <div className="text-red-500 text-xl font-semibold mb-4">
-        {status.message}
-      </div>
-    );
+  if (status.submitting) {
+    return <p className="text-blue-500 font-semibold text-lg mb-4">Envoi en cours...</p>;
   }
 
   if (status.success) {
-    return (
-      <div className="text-green-500 text-xl font-semibold mb-4">
-        {status.message}
-      </div>
-    );
+    return <p className="text-green-500 font-semibold text-lg mb-4">{status.message}</p>;
+  }
+
+  if (status.success === false) {
+    return <p className="text-red-500 font-semibold text-lg mb-4">{status.message}</p>;
   }
 
   return null;
