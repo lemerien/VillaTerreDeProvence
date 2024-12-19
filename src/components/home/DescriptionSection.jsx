@@ -10,7 +10,7 @@ export function DescriptionSection() {
   return (
     <section className="py-2 bg-white" ref={ref}>
       <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto relative bg-ocre p-8 rounded-lg shadow-lg">
+        <div className="max-w-3xl mx-auto relative bg-ochre p-8 rounded-lg shadow-lg">
           <div className="flex flex-col md:flex-row">
             {/* Colonne gauche avec deux blocs de texte */}
             <div className="flex-1 pr-4 mb-6 md:mb-0">

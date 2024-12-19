@@ -10,7 +10,7 @@ export function AboutSection() {
   });
 
   return (
-    <section className="py-20 bg-ocre text-black" ref={ref}> {/* Fond ocre et texte noir */}
+    <section className="py-20 bg-ochre text-black" ref={ref}> {/* Fond ocre et texte noir */}
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div

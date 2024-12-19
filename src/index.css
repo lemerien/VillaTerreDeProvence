@@ -40,13 +40,13 @@ body {
 
 /* Style général pour les composants */
 .payment-method {
-  background-color: #f9f9f9;
-  border: 1px solid #ddd;
+  background-color: #d6a65b;
+  border: 1px solid #b9b3b3;
   border-radius: 8px;
   padding: 20px;
   margin: 20px;
   text-align: center;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.455);
   transition: transform 0.2s;
 }
 
@@ -78,7 +78,7 @@ iframe {
 
 /* src/styles.css ou un fichier CSS approprié */
 .footer-gradient {
-  background: linear-gradient(to right, #d69e2e, #f6e58d); /* Dégradé ocre personnalisé */
+  background: linear-gradient(to right, #d6a65b, #e9dc9d); /* Dégradé ocre personnalisé */
 }
 
 .bg-ochre {
@@ -92,7 +92,7 @@ button:disabled {
 
 .gallery-container {
   padding: 20px;
-  background-color: #f9f9f9; /* Couleur de fond de la galerie */
+  background-color: #d6a65b; /* Couleur de fond de la galerie */
   border-radius: 10px; /* Coins arrondis */
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère */
 }

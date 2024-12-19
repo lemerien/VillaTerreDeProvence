@@ -2,7 +2,7 @@ import React from 'react';
 
 const PaymentMethod = ({ title, description, paypalForm }) => {
 return (
-<div className="text-lg payment-method bg-ochre p-4 rounded-lg">
+<div className="text-lg payment-method p-4 rounded-lg">
 <h3 className="text-xl font-semibold mb-2">{title}</h3>
 <p className="text-lg text-gray-700">{description}</p>
 {paypalForm && (

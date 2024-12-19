@@ -1,5 +1,3 @@
-import React, { useState } from 'react';
-import axios from 'axios';
 import { SignFootMenu } from '../components/layout/SignFootMenu';
 import { Transport } from '../components/contact/Transport';
 import { ContactForm } from '../components/contact/ContactForm';
